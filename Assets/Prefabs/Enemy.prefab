@@ -30,7 +30,7 @@ Transform:
   m_GameObject: {fileID: 3981897339790278196}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalPosition: {x: 155.81, y: 22.206736, z: -12.39}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -55,7 +55,7 @@ NavMeshAgent:
   m_Enabled: 1
   m_AgentTypeID: 0
   m_Radius: 0.5
-  m_Speed: 7
+  m_Speed: 100
   m_Acceleration: 8
   avoidancePriority: 50
   m_AngularSpeed: 120
@@ -79,7 +79,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: bd4c153ba9f23824ab18c6b5b2700b98, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  maintarget: {fileID: 0}
+  definition: {fileID: 11400000, guid: 8844842db131638408d39d77c99f4a49, type: 2}
   agent: {fileID: 7245034872270020510}
+  delayTime: 5
+  currentlife: 100
 --- !u!114 &5102552170310831788
 MonoBehaviour:
   m_ObjectHideFlags: 0
